@@ -1,0 +1,11 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+use work.components.all;  
+
+
+entity RadixTwoEightBitSignedMultiplier is 
+	port(		: in std_logic;
+				: out std_logic);
+end RadixTwoEightBitSignedMultiplier;
+
+
